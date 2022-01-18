@@ -1,30 +1,25 @@
-<div>
-
-Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]`
+such that `i != j, i != k, and j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
 
 Notice that the solution set must not contain duplicate triplets.
 
-**Example 1:**
+### Example 1:
 
-<pre>**Input:** nums = [-1,0,1,2,-1,-4]
-**Output:** [[-1,-1,2],[-1,0,1]]
-</pre>
+    Input: nums = [-1,0,1,2,-1,-4]
+    Output: [[-1,-1,2],[-1,0,1]]
 
-**Example 2:**
+### Example 2:
 
-<pre>**Input:** nums = []
-**Output:** []
-</pre>
+    Input: nums = []
+    Output: []
 
-**Example 3:**
+### Example 3:
 
-<pre>**Input:** nums = [0]
-**Output:** []
-</pre>
+    Input: nums = [0]
+    Output: []
 
-**Constraints:**
+### Constraints:
 
-*   `0 <= nums.length <= 3000`
-*   `-10<sup>5</sup> <= nums[i] <= 10<sup>5</sup>`
+`0 <= nums.length <= 3000`
 
-</div>
+`-105 <= nums[i] <= 105`
